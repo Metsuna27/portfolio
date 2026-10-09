@@ -1,0 +1,1 @@
+Place ici ta photo sous le nom profil.jpg. Place tes captures dans projets/. Puis modifie images dans src/data.ts.\n
