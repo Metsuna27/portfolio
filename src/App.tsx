@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowDown, ArrowRight, ArrowUpRight, Check, Code2, Database, ExternalLink, Github, Layers, Linkedin, Mail, Menu, Monitor, Server, Smartphone, X } from 'lucide-react';
+import { ArrowDown, ArrowRight, ArrowUpRight, Check, Code2, Database, Github, Layers, Linkedin, Mail, Menu, Monitor, Server, Smartphone, X } from 'lucide-react';
 import { profile, projects, skills, type Project } from './data';
 
 const asset = (path: string) => import.meta.env.BASE_URL + path.replace(/^\//, '');
