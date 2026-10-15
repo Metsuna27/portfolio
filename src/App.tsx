@@ -21,7 +21,6 @@ function ProjectCard({ project, i }: { project: Project; i: number }) {
     <p className="work-description">{project.description}</p>
     <div className="work-tags">{project.stack.map(tag => <span key={tag}>{tag}</span>)}</div>
     <div className="work-insight"><strong>Mon rôle</strong><p>{project.contribution}</p><strong>Enjeu technique</strong><p>{project.challenge}</p></div>
-    <div className="work-links">{project.demo ? <a href={project.demo} target="_blank" rel="noreferrer">Démonstration <ExternalLink size={15} /></a> : <span>Démo à venir</span>}{project.code ? <a href={project.code} target="_blank" rel="noreferrer">Code source <Github size={15} /></a> : <span>Dépôt à renseigner</span>}</div>
   </article>;
 }
 
